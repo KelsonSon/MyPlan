@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    
+    height: 93.5vh;
+    background-image: url(./img/bg-myplan.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+:root{
+    --color-main: #3d2819;
+    --color-secundary: #143373;
+    --color-mid: #1B49A6;
+    --color-aux: #3DBFF2;
+    --color-text: #fff;
+    --color-main-opacity: #e0d0c0aa;
+}

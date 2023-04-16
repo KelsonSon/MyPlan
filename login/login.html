@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./../general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+<body>
+    <div id="msgError"></div>
+    <div class="main">
+        
+        <div class="card-content">
+            
+            <form action="#" class="card">
+                <h2>Login</h2>
+                <div class="div-input">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="usuario" name="login" class="input" placeholder="LOGIN">
+                    <label for="usuario" id="userLabel"></label>
+                </div>
+                
+                <div class="div-input">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="senha" name="password" class="input-pass"
+                    placeholder="SENHA">
+                    <label for="senha" id="senhaLabel"></label>
+                    <i class="fa-solid fa-eye" aria-hidden="true"></i>
+                </div>
+                
+
+                <div class="btn-container">
+                    <button class="btn" onclick="entrar()"  type="button">ENTRAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="div-home-btn">
+        <button class="btn" onclick="location.href='./../index.html'" type="button">TELA INICIAL</button>
+
+        <button class="btn" onclick="location.href='./../cadastro/cadastro.html'" type="button">CADASTRO</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
